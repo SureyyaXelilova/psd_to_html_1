@@ -1,0 +1,134 @@
+
+/************************************* common **************************************/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.custom-btn {
+    display: inline-block;
+    padding: 21px 29px;
+    border: 1px solid #f4b843;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.custom-btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+/************************************* social and login section start**************************************/
+.register-row {
+    width: 100%;
+    list-style: none;
+    text-align: right;
+    margin: 0px;
+}
+
+.register-row li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.register-row a{
+	text-decoration: none;
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 17px 25px;
+    display: inline-block;
+}
+.search-icon{
+    color: #f2f2f2;
+}
+.social-icon-row{
+    padding-top: 17px;
+}
+.social-icon {
+    margin-right: 15px;
+    color: #888888;
+}
+.background-dark{
+    background: #4a4a4a;
+}
+.border-bottom-grey{
+    border-bottom: 1px solid #888888;
+}
+
+/*************************************menu and logo section start**************************************/
+
+.menu-row {
+    width: 100%;
+    list-style: none;
+    text-align: right;
+    margin: 0px;
+}
+
+.menu-row li {
+    display: inline-block;
+    margin-left: -4px;
+    height: 100%;
+}
+.menu-row a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 31px 30px;
+    display: inline-block;
+}
+
+.logo-row{
+    padding-top: 17px;
+}
+
+/*************************************title-slider-container start**************************************/
+.title-slider-container {
+    width: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    height: 500px;
+    padding-top: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("fabio-roque-0rnX9dypdZA-unsplash.jpg") center/cover no-repeat fixed;
+}
+.title-sileder-row h1 {
+    font-size: 72px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.title-sileder-row span{
+    color: #f4b843;
+}
+.title-sileder-row p {
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/************************************* check in container **************************************/
+.m-t-62{
+    margin-top: -62px;
+}
+.m-b-0{
+    margin-bottom:0px !important;
+}
+.check-in-container{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 8px 23px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 8px 23px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 8px 23px -1px rgba(0,0,0,0.75);
+}
+.background-yellow{
+    background: #f4b843;
+}
+
+.height-65{
+    height: 65px;
+}
