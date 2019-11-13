@@ -6,6 +6,7 @@ body{
 h1,h2,h3,h4,h5{
     font-weight: 700;
     color: #222222;
+    text-transform: uppercase;
 }
 .custom-btn {
     display: inline-block;
@@ -14,14 +15,12 @@ h1,h2,h3,h4,h5{
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    color: #ffffff;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
     transition: all 0.3s ease;
 }
 .custom-btn:hover {
-    color: #ffffff;
     text-decoration: none;
 }
 input:focus,select:focus{
@@ -144,6 +143,10 @@ input:focus,select:focus{
 
 .background-yellow{
     background: #f4b843;
+    color: #ffffff;
+}
+.background-yellow:hover{
+    color: #ffffff;
 }
 .check-in-container{
     padding-top: 42px;
@@ -238,4 +241,82 @@ input:focus,select:focus{
     margin-bottom: 18px;
     font-size: 15px;
     color:#555555;
+}
+
+
+
+/************************************* popular destimoniols section **************************************/
+.popular-destimoniols-container {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.popular-destimoniols-container:hover {
+    -webkit-box-shadow: 1px 8px 23px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 8px 23px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 8px 23px -1px rgba(0,0,0,0.75);
+}
+.popular-destimoniols-container:hover .popular-destimoniols-img-row{
+    width:auto;
+    margin-left:-15px !important;
+    margin-right:-15px !important;
+}
+.popular-destimoniols-container:hover .popular-destimoniols-btn-row {
+    opacity: 1;
+
+}
+.popular-destimoniols-img-row {
+    width: 100%;
+    position: relative;
+}
+
+.popular-destimoniols-img-row img{
+    width: 100%;
+}
+
+.popular-destimoniols-btn-row {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.popular-destimoniols-container h4{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.popular-destimoniols-container i{
+    font-size: 12px;
+    color: #f4b843;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.popular-destimoniols-container hr{
+    margin-top: 0px !important; 
+    margin-bottom: 0px !important;
+    width: 56px;
+    color: #e7e7e7 !important;
+}
+.popular-destimoniols-container p{
+    font-size: 15px;
+    color:#6c6c6c;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+.popular-destimoniols-second-text{
+   margin-top:10px !important;
+}
+.background-transparent{
+    background: transparent;
+    color: #f4b843;
+}
+.background-transparent:hover{
+    background: #f4b843;;
+    color: #ffffff;
 }
