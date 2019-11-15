@@ -320,3 +320,84 @@ input:focus,select:focus{
     background: #f4b843;;
     color: #ffffff;
 }
+/************************************* div-1, div-2, div-3 **************************************/
+
+.div-1{
+    width:20%;
+    display: inline-block;
+    border: 1px solid red;
+    height: 200px;
+}
+.div-2{
+    width:20%;
+    display: inline-block;
+     border: 1px solid red;
+     height: 200px;
+}
+.div-3{
+    width:20%;
+    display: inline-block;
+     border: 1px solid red;
+     height: 200px;
+}
+/************************************* book your tour now section **************************************/
+.book-tour-container{
+    color: #ffffff;
+    text-align: center;
+    background: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/shaafi-ali--1zFsXJIJhA-unsplash.jpg") center/cover no-repeat fixed;
+}
+.book-tour-container h1{
+    margin-bottom: 34px;
+    color: #ffffff !important;
+}
+.book-tour-container p{
+    margin-bottom:37px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+.book-tour-container img{
+    margin-left: 14px;
+}
+
+/************************************* explore the stunning beaches section **************************************/
+
+.explore-beaches-container {
+    text-align: center;
+    border: 1px solid red;
+    padding: 0px;
+}
+.explore-beaches-container:hover .explore-beaches-text-row {
+    opacity: 1;
+
+}
+.explore-beaches-img-row {
+    width: 100%;
+    position: relative;
+}
+.explore-beaches-img-row img{
+    width: 100%;
+}
+.explore-beaches-text-row {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.explore-beaches-text-row h6{
+    color:#ffbc39;
+    margin-bottom:14px;
+}
+.explore-beaches-text-row p{
+    color:#ffffff;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
