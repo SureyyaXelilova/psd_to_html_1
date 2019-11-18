@@ -521,9 +521,9 @@ input:focus,select:focus{
     padding-left: 21px;
     border: 1px solid #ffffff;
 }
-.form-control:focus {
+/*.form-control:focus {
       border: 1px solid #ffffff !important;
-}
+}*/
 .follow-us-input-container img{
     position: absolute;
     top: 15px;
