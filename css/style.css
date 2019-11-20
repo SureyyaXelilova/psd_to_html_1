@@ -53,7 +53,32 @@ input:focus,select:focus{
 .vertical-navigation-bar li a{
     text-decoration: none;
 }
-
+.display-row-when-hover {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.display-row-when-hover h6{
+    color:#ffbc39;
+}
+.display-row-when-hover p{
+    color:#ffffff;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.display-row-when-hover span{
+    color: #ffbc39;
+    font-weight: bold;
+}
 /************************************* title style **************************************/
 .title-container {
     margin-bottom: 85px;
@@ -272,7 +297,7 @@ input:focus,select:focus{
     margin-left:-15px !important;
     margin-right:-15px !important;
 }
-.popular-destimoniols-container:hover .popular-destimoniols-btn-row {
+.popular-destimoniols-container:hover .display-row-when-hover {
     opacity: 1;
 
 }
@@ -283,20 +308,6 @@ input:focus,select:focus{
 
 .popular-destimoniols-img-row img{
     width: 100%;
-}
-
-.popular-destimoniols-btn-row {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
-    transition: all 0.3s ease;
-    opacity: 0;
 }
 
 .popular-destimoniols-container h4{
@@ -379,7 +390,7 @@ input:focus,select:focus{
     text-align: center;
     padding: 0px;
 }
-.explore-beaches-container:hover .explore-beaches-text-row {
+.explore-beaches-container:hover .display-row-when-hover {
     opacity: 1;
 
 }
@@ -389,28 +400,6 @@ input:focus,select:focus{
 }
 .explore-beaches-img-row img{
     width: 100%;
-}
-.explore-beaches-text-row {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
-    transition: all 0.3s ease;
-    opacity: 0;
-}
-.explore-beaches-text-row h6{
-    color:#ffbc39;
-}
-.explore-beaches-text-row p{
-    color:#ffffff;
-    font-size: 15px;
-    font-family: 'Playfair Display', serif;
 }
 
 /************************************* blog section **************************************/
@@ -569,6 +558,10 @@ input:focus,select:focus{
 .footer-gallery-img-row {
     width: 23% !important;
     margin-bottom: 12px;
+    position: relative;
+}
+.footer-gallery-img-row:hover .display-row-when-hover{
+    opacity: 1;
 }
 .footer-gallery-img-row img{
    width: 100%;
