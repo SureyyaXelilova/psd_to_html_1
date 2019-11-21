@@ -8,6 +8,9 @@ h1,h2,h3,h4,h5,h6{
     color: #222222;
     text-transform: uppercase;
 }
+.common-container{
+    position: relative;
+}
 .custom-btn {
     display: inline-block;
     padding: 21px 33px;
@@ -40,11 +43,9 @@ input:focus,select:focus{
     list-style: none;
     text-align: right;
     margin: 0px;
-    border: 1px solid red;
     padding: 0px;
 }
 .vertical-navigation-bar li {
-    border: 1px solid red;
     width: auto;
     text-align: right;
     align-items: center;
@@ -136,7 +137,6 @@ input:focus,select:focus{
     align-items: center;
     width: 100%;
     height: 100%;
-    border: 1px solid red;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -149,7 +149,6 @@ input:focus,select:focus{
 /*************************************title-slider-container start**************************************/
 .title-slider-container {
     width: 100%;
-    border: 1px solid red;
     box-sizing: border-box;
     height: 500px;
     padding-top: 150px;
@@ -500,7 +499,7 @@ input:focus,select:focus{
     color: #ffffff;
     font-family: 'Playfair Display', serif; 
     font-style: italic;
-    margin-bottom: 0px !important;
+    margin-bottom: 0px;
 }
 .follow-us-input-container{
     position: relative;
@@ -510,9 +509,9 @@ input:focus,select:focus{
     padding-left: 21px;
     border: 1px solid #ffffff;
 }
-/*.form-control:focus {
+.follow-us-input-container input:focus {
       border: 1px solid #ffffff !important;
-}*/
+}
 .follow-us-input-container img{
     position: absolute;
     top: 15px;
