@@ -1,5 +1,5 @@
 
-/************************************* common **************************************/
+/************************************* common start **************************************/
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -96,6 +96,24 @@ input:focus,select:focus{
     font-style: italic;
     font-family: 'Playfair Display', serif;
 }
+/************************************* page-name-banner-container section **************************************/
+.page-name-banner-container{
+    text-align:center;
+    border: 1px solid transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/shaafi-ali--1zFsXJIJhA-unsplash.jpg") center/cover no-repeat fixed;
+}
+.page-name-banner-container h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+.page-name-banner-container p{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-style:italic;
+    margin-bottom: 37px;
+}
+/*********************************************** common end ************************************************/
 /************************************* social and login section start**************************************/
 
 .register-row li a{
@@ -110,7 +128,9 @@ input:focus,select:focus{
     margin-left: 25px;
 }
 .social-icon-row{
-    padding-top: 17px;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 .social-icon {
     margin-right: 15px;
@@ -124,12 +144,31 @@ input:focus,select:focus{
 }
 
 /*************************************menu and logo section start**************************************/
+.menu-row li{
+    padding: 25px 0px 25px 60px;
+    cursor: pointer;
+}
 .menu-row li a{
     color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    padding: 31px 30px;
+    transition: all 0.5s ease;
+}
+.menu-row  hr{
+    border: 0;
+    border-top: 1px solid #f4b843;
+    width: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+.menu-row li:hover a{
+    color: #f4b843;
+}
+.menu-row li:hover hr{
+    opacity: 1;
 }
 .logo-row{
     display: flex;
@@ -517,6 +556,73 @@ input:focus,select:focus{
     top: 15px;
     right: 23px;
 }
+/************************************* contact  section  **************************************/
+.m-t-20-b-40{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.contact-data-row{
+    text-align: center;
+}
+.contact-data-row i{
+    color: #f5b843;
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+.contact-data-row p{
+    font-size: 15px;
+    color: #555555;
+    margin-bottom: 0px;
+}
+.contact-post-code{
+    margin-bottom: 14px !important;
+}
+.contact-input-container{
+    padding-top: 80px;
+}
+.contact-input-row{
+    position: relative;
+}
+.contact-input-row input,.contact-input-row select, .contact-input-row textarea{
+    height: 47px;
+    padding-left: 40px;
+    font-size: 13px !important;
+    color: #989898 !important;
+    border: 1px solid #e9e9e9 !important;
+}
+.contact-input-row textarea{
+    height: 224px;
+    padding-top: 12px;
+    box-shadow: none !important;
+}
+.contact-input-row input,.follow-us-input-container input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 13px !important;
+    color: #989898 !important;
+}
+.contact-input-row input,.follow-us-input-container input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 13px !important;
+    color: #989898 !important;
+}
+.contact-input-row input,.follow-us-input-container input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 13px !important;
+    color: #989898 !important;
+}
+.contact-input-row input,.follow-us-input-container input:-moz-placeholder { /* Firefox 18- */
+    font-size: 13px !important;
+    color: #989898 !important;
+}
+.contact-input-row i {
+    font-size: 13px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+/************************************* map  section **************************************/
+.map-container{
+    height: 614px;
+    background: url("../img/Map.png") center/cover no-repeat fixed;
+}
+
 /************************************* footer 1 **************************************/
 .footer-1{
     text-align: left;

@@ -22,10 +22,13 @@
 		padding-top: 80px;
 	}
 	/*******************************menu and logo section start********************/
-	.menu-row li a{
-	    padding: 15px 20px;
-	    font-size: 13px;
+	.menu-row li{
+	    padding: 15px 0px 15px 40px;
 	}
+	.menu-row li a{
+		font-size: 13px;
+	}
+
 	/****************** title-slider-container section start ******************* */
 	.title-sileder-row h1 {
     	font-size: 50px;
@@ -106,12 +109,11 @@
 	}
 	.responsive-vertical-navigation-bar li{
 	    display: block;
-	}
-	.responsive-vertical-navigation-bar li a{
-	    display: block;
 	    padding: 15px 0px;
 	}
-
+	.menu-row  hr{
+		display: none;
+	}
 	/****************** title-slider-container start ******************* */
 	.title-sileder-row h1 {
     	font-size: 40px;
@@ -166,10 +168,7 @@
 		margin-bottom: 20px
     }
 	/******************  footer 1 section  ******************* */
-    .social-icon-row {
-     	padding-top: 0px; 
-	}
-	.footer-links-container h6, .footer-gallery-container h6 {
+    .footer-links-container h6, .footer-gallery-container h6 {
 		margin-bottom: 30px;
 	}
 	/******************  footer 2 section  ******************* */
