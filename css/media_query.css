@@ -59,6 +59,10 @@
 		padding-top: 30px;
 		text-align: center;
 	}
+	/******************* gallery  section start ***************/
+	.m-t-minus-100{
+    	margin-top: -60px;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -177,6 +181,13 @@
 	}
 	.mobile-justify-content-start a{
 		padding: 17px 25px 17px 0px !important;
+	}
+	/******************* gallery  section start ***************/
+	.m-t-minus-100{
+    	margin-top: 0px;
+	}
+	.p-r-l-15{
+		margin-bottom:30px !important;
 	}
  }
 
