@@ -625,11 +625,24 @@ input:focus,select:focus{
 /************************************* contact  section end **************************************/
 /************************************* gallery  section start **************************************/
 .gallery-row{
+
     margin-bottom: 50px;
+   /* width: 1200px;
+    margin: 0 auto;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    height: 100vw;
 }
-.p-r-l-15{
+.p-r-l-15 {
     padding-right: 15px;
     padding-left: 15px;
+    width: 31%;
+    position: relative;
+    margin-bottom: 30px;
 }
 .m-b-30{
     margin-bottom: 30px;
@@ -637,6 +650,9 @@ input:focus,select:focus{
 .m-t-minus-100{
     margin-top: -100px;
 }
+
+
+
 /************************************* gallery  section end **************************************/
 /************************************* footer 1 **************************************/
 .footer-1{
