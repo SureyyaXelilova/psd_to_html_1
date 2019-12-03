@@ -381,26 +381,24 @@ input:focus,select:focus{
     background: #f4b843;;
     color: #ffffff;
 }
-/************************************* div-1, div-2, div-3 **************************************/
+/************************************* popular destimoniols section **************************************/
+.location-row{
+    height: 649px;
+    background: url("../img/shaafi-ali--1zFsXJIJhA-unsplash.jpg") center/cover no-repeat fixed;
+}
+.famous-location-container{
+    background-color: #ffffff;
+    padding: 0px 0px 0px 4px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.famous-location-row {
+    height: 100%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/leonard-cotte-R5scocnOOdM-unsplash.jpg") center/cover no-repeat fixed;
+}
 
-.div-1{
-    width:20%;
-    display: inline-block;
-    border: 1px solid red;
-    height: 200px;
-}
-.div-2{
-    width:20%;
-    display: inline-block;
-     border: 1px solid red;
-     height: 200px;
-}
-.div-3{
-    width:20%;
-    display: inline-block;
-     border: 1px solid red;
-     height: 200px;
-}
 /************************************* book your tour now section **************************************/
 .book-tour-container{
     color: #ffffff;
