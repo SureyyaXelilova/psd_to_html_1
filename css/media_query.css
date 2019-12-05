@@ -63,6 +63,21 @@
 	.m-t-minus-100{
     	margin-top: -60px;
 	}
+
+	/******************* check out section start ***************/
+	.check-out-container h2 {
+   		font-size: 25px;
+   		margin-top: -19px;
+	}
+	.tour-info-title-row {
+  		padding: 30px 20px;
+	}
+	.tour-info-details-container {
+		padding: 0px 20px;
+	}
+	.tour-price-row {
+ 		padding: 36px 20px;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -104,7 +119,7 @@
 	.mobile-navigation-container{
 		position: absolute;
 		background: #0c0c0c;
-	    top: 53px;
+        top: 104px;
 		transition: all 0.3s ease;
 		display: none;
 	}
@@ -189,9 +204,34 @@
 	.p-r-l-15{
 		margin-bottom:30px !important;
 	}
+	/******************* check out section start ***************/
+	.check-out-step-row {
+	   	top: -15px;
+	    left: -14px;
+	}
+	.check-out-container h2 {
+	 	margin-top: -15px;
+	}
+	.check-out-container img {
+	    width: 30px;
+	    height: 30px;
+	}
+	.check-out-step-row p {
+	    margin-top: -73px;
+	    margin-left: 9px;
+	    font-size: 16px;
+	}
  }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { ... }
+@media (max-width: 576px) {
+	/******************* check out section start ***************/
+	.check-out-step-row {
+	    left: -2px;
+	}
+	.check-out-container h2 {
+	    font-size: 20px;
+	    margin-top: -12px;
+ 	}
 
 
