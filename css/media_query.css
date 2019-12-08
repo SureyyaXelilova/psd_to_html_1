@@ -233,5 +233,12 @@
 	    font-size: 20px;
 	    margin-top: -12px;
  	}
-
+ 	/***************** destimoniols details  **************/
+	.destimoniols-tools-row i {
+		font-size: 25px;
+	}
+	.destimoniols-tools-row p {
+		font-size: 10px;
+	}
+}
 
