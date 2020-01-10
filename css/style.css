@@ -1040,25 +1040,30 @@ input:focus,select:focus{
 .blog-detail-right-side-row a:hover {
     text-decoration:none;
 }
-.blog-detail-right-side-article{
+.recent-article-container{
     border: none !important;
     margin-top: 24px;
     margin-bottom: 0px !important;
 }
-.blog-detail-right-side-article .blog-article-img-row{
-    width: 30% !important;
+.recent-article-container .blog-article-img-row{
+    width: auto;
+    border: 1px solid red;
 }
-.blog-detail-right-side-article .blog-article-text-row{
-    width: 70% !important;
+.recent-article-container .blog-article-text-row{
+    width: auto;
+    border: 1px solid red;
 }
-.blog-detail-right-side-article span, .blog-detail-right-side-article i{ 
+.recent-article-container span, .recent-article-container i{ 
     font-size:12px !important;
 }
-.blog-detail-right-side-article span{
-    margin-right: 10px !important;
+.recent-article-container i{
+    margin-right: 1px;
 }
-.p-l-15{
-    padding: 0px 0px 13px 15px !important;
+.recent-article-container span{
+    margin-right: 5px !important;
+}
+.p-l-10{
+    padding: 0px 0px 13px 10px !important;
 }
 .tags-container {
     display: flex;
@@ -1073,6 +1078,8 @@ input:focus,select:focus{
     font-size: 12px;
     background: #f8f8f8;
 }
+
+
 /************************************* footer 1 **************************************/
 .footer-1{
     text-align: left;

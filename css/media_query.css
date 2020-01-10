@@ -78,6 +78,13 @@
 	.tour-price-row {
  		padding: 36px 20px;
 	}
+	/****************************** blog page *******************************/
+	.recent-article-img-row{
+		width:30% !important;
+	}
+	.recent-article-text-row{
+		width:70% !important;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -221,6 +228,19 @@
 	    margin-left: 9px;
 	    font-size: 16px;
 	}
+	/****************************** blog page *******************************/
+	.blog-article-container {
+	    display: block;
+        max-height: none;
+	}
+	.blog-article-img-row {
+    	width: 100%;
+    	display: block;
+	}
+	.blog-article-text-row {
+	  	width: 100%;
+    	display: block;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
