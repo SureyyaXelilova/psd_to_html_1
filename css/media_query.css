@@ -21,6 +21,9 @@
 	.p-t-120{
 		padding-top: 80px;
 	}
+	.tablet-m-b-60{
+		margin-bottom: 60px;
+	}
 	/*******************************menu and logo section start********************/
 	.menu-row li{
 	    padding: 15px 0px 15px 40px;
@@ -80,16 +83,34 @@
 	}
 	/****************************** blog page *******************************/
 	.recent-article-img-row{
-		width:30% !important;
+		width:15% !important;
 	}
 	.recent-article-text-row{
-		width:70% !important;
+		width:85% !important;
+	}
+	.recent-article-text-row h6 {
+    	margin-bottom: 10px;
+	}
+
+	/****************************** about page *******************************/
+	.about-accordion-row {
+    	padding-left: 0px;
+	}
+	/********** gallery  section start **********/
+	.masonry-gallery {
+		column-count: 3;
 	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) { 
 	/******************************* common ********************/
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 20px;
+	}
 	.mobile-display-none{
 		display: none !important;
 	}
@@ -241,6 +262,13 @@
 	  	width: 100%;
     	display: block;
     }
+    .recent-article-container{
+    	display: flex !important;
+    }
+    /********** gallery  section start **********/
+	.masonry-gallery {
+		column-count: 2;
+	}
  }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -259,6 +287,10 @@
 	}
 	.destimoniols-tools-row p {
 		font-size: 10px;
+	}
+	 /********** gallery  section start **********/
+	.masonry-gallery {
+		column-count: 1;
 	}
 }
 

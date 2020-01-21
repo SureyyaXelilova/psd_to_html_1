@@ -88,6 +88,12 @@ input:focus,select:focus{
     -moz-box-shadow: 1px 2px 14px -4px rgba(0,0,0,0.75);
     box-shadow: 1px 2px 14px -4px rgba(0,0,0,0.75);
 }
+.display-block{
+    display: block !important;
+}
+.display-none{
+    display: none !important;
+}
 /************************************* title style **************************************/
 .title-container {
     margin-bottom: 85px;
@@ -633,33 +639,29 @@ input:focus,select:focus{
 }
 
 /********** gallery  section start **********/
-.gallery-row{
-
-    margin-bottom: 50px;
-   /* width: 1200px;
-    margin: 0 auto;*/
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    display: -webkit-flex;
-    -webkit-flex-direction: column;
-    -webkit-flex-wrap: wrap;
-    height: 100vw;
+.masonry-gallery {
+    column-count: 4;
+    column-gap: 30px;
+    column-fill: initial;
 }
-.p-r-l-15 {
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 31%;
+.gallery-item { 
     position: relative;
-    margin-bottom: 30px;
+    background-color: #eee;
+    width: 100%;
+    margin: 0 0 1.5em;
 }
-.m-b-30{
-    margin-bottom: 30px;
+.gallery-item img{
+    transition: all .5s ease-in-out;
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: middle;
 }
-.m-t-minus-100{
-    margin-top: -100px;
+.gallery-item:hover .display-row-when-hover{
+    opacity: 1;
 }
-
+.m-t-80{
+    margin-top: 80px;
+}
 /********** destimoniols  section start **********/
 .m-t-30{
     margin-top: 30px;
@@ -1007,9 +1009,6 @@ input:focus,select:focus{
     margin-top: 30px;
     margin-bottom:18px;
 }
-.blog-detail-right-side-container {
-    border: 1px solid red;
-}
 .blog-detail-right-side-row {
     margin-bottom: 58px;
 }
@@ -1045,22 +1044,20 @@ input:focus,select:focus{
     margin-top: 24px;
     margin-bottom: 0px !important;
 }
-.recent-article-container .blog-article-img-row{
+.recent-article-img-row,  .recent-article-text-row{
     width: auto;
-    border: 1px solid red;
 }
-.recent-article-container .blog-article-text-row{
-    width: auto;
-    border: 1px solid red;
-}
-.recent-article-container span, .recent-article-container i{ 
+.recent-article-text-row span, .recent-article-text-row i{ 
     font-size:12px !important;
 }
-.recent-article-container i{
+.recent-article-text-row i{
     margin-right: 1px;
 }
-.recent-article-container span{
+.recent-article-text-row span{
     margin-right: 5px !important;
+}
+.recent-article-text-row h6{
+    margin-bottom:0px;
 }
 .p-l-10{
     padding: 0px 0px 13px 10px !important;
@@ -1078,8 +1075,141 @@ input:focus,select:focus{
     font-size: 12px;
     background: #f8f8f8;
 }
-
-
+.pagination-container {
+    margin-bottom:50px;
+}
+.pagination-row {
+    width: 307px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.page-num-row {
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+.page-num-row a{
+    color: #555555;
+}
+.page-num-row:hover {
+    background: #f5b843;
+}
+.page-num-row:hover a{
+    color: #ffffff;
+    text-decoration:none;
+}
+/********************* about page  *********************/
+.about-story-container{
+    text-align:center;
+    padding: 0px 15px;
+}
+.about-story-container h1{
+    color: #222222;
+    margin-bottom: 45px;
+}
+.about-story-container p:nth-child(2){
+    font-size: 15px;
+    color: #222222 !important;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+.about-story-container p:nth-child(3){
+    color: #555555;
+    font-size: 15px;
+}
+.full-screen-video-container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.full-screen-video-container video{
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.full-screen-video-layout {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4);
+}
+.full-screen-video-layout h2{
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.full-screen-video-layout p{
+    font-size: 18px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+.about-two-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+.two-img-first-row {
+    width: 60%;
+    height: 400px;
+    -webkit-box-shadow: -2px 8px 27px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 8px 27px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 8px 27px 0px rgba(0,0,0,0.75);
+    background: url('../img/cinque-terre-368-332-home-blog-1.jpg') center/cover no-repeat;
+}
+.two-img-second-row {
+    width: 40%;
+    height: 300px;
+    margin-top: 50px;
+    background: url('../img/david-marcu-78A265wPiO4-unsplash.jpg') center/cover no-repeat;
+}
+.about-accordion-row {
+    padding-left: 40px;
+}
+.about-title{
+    margin-top:25px;
+    font-size: 15px;
+    color: #555555;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+.accordion-row {
+    border-bottom: 1px solid #c0c0c0;
+}
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.accordion-header p, .accordion-header span{
+    font-size: 18px;
+    color: #222222;
+    font-weight: bold;
+    margin: 0px;
+}
+.accordion-header span{
+    cursor: pointer;
+}
+.accordion-close{
+    display: none;
+}
+.accordion-body{
+    display: none;
+    font-size: 15px;
+    color: #555555;
+    padding-bottom: 15px;
+    transition: all 0.5s ease;
+}
 /************************************* footer 1 **************************************/
 .footer-1{
     text-align: left;
