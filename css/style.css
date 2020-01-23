@@ -399,7 +399,7 @@ input:focus,select:focus{
 /************************************* popular destimoniols section **************************************/
 .location-row{
     height: 649px;
-    background: url("../img/shaafi-ali--1zFsXJIJhA-unsplash.jpg") center/cover no-repeat fixed;
+    background: url("../img/eberhard-grossgasteiger-LAZX9pMx85E-unsplash.jpg") center/cover no-repeat;
 }
 .famous-location-container{
     background-color: #ffffff;
@@ -411,7 +411,8 @@ input:focus,select:focus{
     height: 100%;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/leonard-cotte-R5scocnOOdM-unsplash.jpg") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/gary-lopater-dOOGrK3zcUc-unsplash.jpg") center bottom/cover no-repeat;
+
 }
 
 /************************************* book your tour now section **************************************/
@@ -562,12 +563,26 @@ input:focus,select:focus{
     border: 1px solid #ffffff;
 }
 .follow-us-input-container input:focus {
-      border: 1px solid #ffffff !important;
+    border: 1px solid #ffffff !important;
 }
 .follow-us-input-container img{
     position: absolute;
     top: 15px;
     right: 23px;
+}
+/************************************* home page client slider  section **************************************/
+.client-slider-background{
+     background: url("../img/Image bg.png") center/cover no-repeat fixed;
+}
+.client-slider-review-text{
+    font-size: 18px !important;
+    margin-top: 0px !important;
+}
+.color-black{
+    color: #000;
+}
+.m-b-0{
+    margin-bottom: 0px !important;
 }
 /********** contact  section start **********/
 .p-l-40{
