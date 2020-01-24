@@ -159,7 +159,7 @@ input:focus,select:focus{
 
 /*************************************menu and logo section start**************************************/
 .menu-row li{
-    padding: 25px 0px 25px 60px;
+    padding: 25px 0px 25px 40px;
     cursor: pointer;
 }
 .menu-row li a{
@@ -678,6 +678,17 @@ input:focus,select:focus{
     margin-top: 80px;
 }
 /********** destimoniols  section start **********/
+.destinations-custom-style{
+    border: 1px solid #eeeeee;
+}
+.destinations-custom-style:hover {
+    box-shadow: none !important;
+}
+.destinations-custom-style:hover .popular-destimoniols-img-row{
+    width:auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 .m-t-30{
     margin-top: 30px;
 }
