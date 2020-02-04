@@ -8,11 +8,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/media_query.css">
     <script src="https://kit.fontawesome.com/5b21662f34.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="slick-master/slick/slick.css">
 	<link rel="stylesheet" href="slick-master/slick/slick-theme.css">
+	<script src="js/wow.min.js"></script>
  </head>
 <body>
 	<header>
@@ -113,7 +115,7 @@
 		</div>
 		<!-- ************************************* why choose us ************************************** -->
 		<div class="common-container p-t-b-120">
-			<div class="title-container">
+			<div class="title-container wow slideInLeft" data-wow-duration="2s" data-wow-delay="0s">
 				<h2>WHY CHOOSE US</h2>
 				<p>Phasellus vehicula malesuada quam, a condimentum mauris dignissim vulputate</p>
 				<img src="img/title focus shape.png" alt="title-icon">
@@ -138,7 +140,7 @@
 				</div>
 	        </div>
 		</div>
-		<!-- ************************************* video section ************************************** -->
+		<!-- ******************************* video section ***************************** -->
 		<div class="common-container p-t-b-120 background-grey">
 	        <div class="container">
 				<div class="row">
@@ -605,7 +607,9 @@
 
 <script src="slick-master/slick/slick.js"></script>
 <script src="js/script.js"></script>
+
 <script>
+	 new WOW().init();
 	$(document).ready(function(){
 		$('.demo').slick({
 			slidesToShow: 6,

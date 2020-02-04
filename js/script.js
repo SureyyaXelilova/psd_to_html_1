@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	$(".show-navigation-bar").click(function(){
 		console.log('Sura');

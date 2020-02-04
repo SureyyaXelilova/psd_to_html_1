@@ -98,6 +98,8 @@ input:focus,select:focus{
 .title-container {
     margin-bottom: 85px;
     text-align: center;
+   /* width:500px;
+    margin:0 auto;*/
 }
 .title-container h2{
     margin-bottom: 24px;
@@ -650,7 +652,7 @@ input:focus,select:focus{
 
 .map-container{
     height: 614px;
-    background: url("../img/Map.png") center/cover no-repeat fixed;
+    background: url("../img/Map.png") center/cover no-repeat;
 }
 
 /********** gallery  section start **********/
